@@ -30,7 +30,7 @@ Before running the application, ensure you have the following installed:
 ## Clone the repository:
 
 ```
-git clone https://github.com/your-repo/gen-cartoon-webapp.git
+git clone https://github.com/pavanKumar2812/CartoonGAN-Web-App.git
 ```
 
 ### Navigate to the project directory:
