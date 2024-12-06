@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Cartoon</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Gen Cartoon</h1>
+    </nav>
+    <div class="ArenaContainer">
+        <div class="VideoContainer">
+            <img class="Video" src="/RawVideo">
+        </div>
+        <div class="image_container">
+            <div id="result">
+                <div class="form-container">
+                    <form id="upload-form" enctype="multipart/form-data">
+                        <label for="file-input">Upload an Image:</label>
+                        <input type="file" id="file-input" name="image" accept="image/*" required>
+                        <button type="submit">Upload and Cartoonize</button>
+                    </form>
+                </div>
+                <h3>Cartoonized Image:</h3>
+                <img id="cartoon-image" src="" alt="Cartoon Image" style="display:none;">
+            </div>
+        </div>
+    </div>
+    <div class="ControlPanel">
+        <div id="Menus">
+            <h3>Image</h3>
+            <div>
+                <p>Upload the image</p>
+            </div>
+            <h3>Raw Video</h3>
+            <div>
+                <p>Raw Video from camera</p>
+            </div>
+            <h3 class="">Cartoon Video</h3>
+            <div>
+                <p>
+                    Cartoon Video from model
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
