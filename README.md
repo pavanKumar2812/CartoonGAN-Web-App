@@ -13,6 +13,7 @@ Gen Cartoon is a web application that transforms live video feeds and uploaded i
 ### Image Upload Form
 
 ### Cartoonized Image Output
+![Cartoonized Image](assets/image_cartoon.png)
 
 ### Live Cartoon Video
 
