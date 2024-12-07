@@ -16,7 +16,7 @@ Gen Cartoon is a web application that transforms live video feeds and uploaded i
 ![Cartoonized Image](assets/image_cartoon.png)
 
 ### Live Cartoon Video
-![Cartoonized Image](assets/CartoonGen.mp4)
+[Click here to view the cartoonized video](assets/CartoonGen.mp4)
 
 Prerequisites
 Before running the application, ensure you have the following installed:
