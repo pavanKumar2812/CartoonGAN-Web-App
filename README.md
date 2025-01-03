@@ -1,4 +1,4 @@
-# Gen-Cartoon-Web-Appliccation
+# Gen-Cartoon-Web-Application
 
 Gen Cartoon is a web application that transforms live video feeds and uploaded images into cartoonized versions using a GAN(Generative Adversarial Network). The app features real-time video cartoonization and an option for users to upload and cartoonize images
 
