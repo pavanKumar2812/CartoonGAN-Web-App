@@ -1,0 +1,8 @@
+flask
+tensorflow
+tflite
+opencv-python
+numpy
+pandas
+matplotlib
+keras
